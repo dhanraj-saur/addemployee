@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,600&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: aliceblue;
+    font-family: "Mulish", sans-serif;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+}
+
+.form {
+    margin-top: 50px;
+}
+
+.form label {
+    font-size: 20px;
+}
+
+.form input {
+    width: 150%;
+    height: 35px;
+    border: 2px solid gray;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.form ::placeholder {
+    font-size: 20px;
+    margin: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.react {
+    margin-left: 60px;
+}
+
+.react2 {
+    margin-right: 200px;
+}
+
+.btn {
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 15%;
+    height: 40px;
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.suc-err {
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+#error {
+    color: red;
+}
+
+#success {
+    color: greenyellow;
+}
+
+.heads {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.container1 {
+
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.btn-1 {
+    margin-right: 250px;
+}
+.btn-2{
+    margin-right: 150px;
+}
+
+
+
+#deletBtn {
+    width: 240%;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 20px;
+    background-color: aliceblue;
+    color: black;
+}
+
+.display {
+    width: 50%;
+    height: 50px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 20px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
